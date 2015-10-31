@@ -1,0 +1,15 @@
+
+
+# Python bytecode
+*.pyc
+__pycache__
+
+# Virtual environments
+venv
+pyvenv
+env
+
+# Testing artifacts
+.hypothesis
+.tox
+.coverage*
