@@ -63,8 +63,8 @@ You can load the profile anytime later with the ``read_profile()`` function::
     my_profile = profile.read_profile("default")
 
 Once you have a profile loaded into a variable (like ``my_profile``), you can
-use it in any other ``Simply Github`` function that requires a profile as its
-first argument.
+use it for any of the ``Simply Github`` functions that requires a profile as
+their first argument.
 
 
 Creating branches
