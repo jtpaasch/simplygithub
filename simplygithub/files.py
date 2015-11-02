@@ -239,7 +239,7 @@ def add_file(
     return ref_data
 
 
-def delete_file(profile, branch, file_path, commit_message=None):
+def remove_file(profile, branch, file_path, commit_message=None):
     """Remove a file from a branch.
 
     Args:

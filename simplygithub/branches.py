@@ -142,8 +142,8 @@ def delete_branch(profile, name):
     return data
 
 
-def merge(profile, branch, base_branch):
-    """Merge a branch into a base branch.
+def merge(profile, branch, merge_into):
+    """Merge a branch into another branch.
 
     Args:
 
@@ -155,12 +155,12 @@ def merge(profile, branch, base_branch):
         branch
             The name of the branch to merge.
 
-        base_branch
+        merge_into
             The name of the branch you want to merge into.
 
     Returns:
         A dict wtih data about the merge.
 
     """
-    data = merges.merge(profile, branch, base_branch)
+    data = merges.merge(profile, branch, merge_into)
     return data
