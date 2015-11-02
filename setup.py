@@ -21,7 +21,7 @@ setup(
     name="simplygithub",
 
     # The version number should comply with PEP440.
-    version="0.1.0",
+    version="0.2.0",
 
     # Describe the project.
     description="A simple tool for working with Github remotely.",
