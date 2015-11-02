@@ -80,7 +80,7 @@ def read_profile(name):
 def write_profile(name, repo, token):
     """Save a profile to the CONFIG_FILE.
 
-    After you use this method to sae a profile, you can load it anytime
+    After you use this method to save a profile, you can load it anytime
     later with the ``read_profile()`` function defined above.
 
     Args:
@@ -111,7 +111,7 @@ def write_profile(name, repo, token):
 
 
 def ephemeral_profile(repo, token):
-    """Generate a profile that's not on disk anywhere.
+    """Generate a profile that's not saved on disk anywhere.
 
     This simply returns a profile dictionary with ``repo`` and ``token``
     values. It does not get saved on disk anywhere.
