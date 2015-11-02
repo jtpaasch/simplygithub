@@ -27,9 +27,9 @@ is the Github repo name in the form::
 
     <username>/<reponame>
 
-The token is a Github Oauth2 token. The Github literature sometimes calls
-these "Personal Access Tokens." They can be created at Github.com under
-your account setings.
+The token is a personal access token. Tokens can be created from your
+Github page, under your account settings. See
+https://help.github.com/articles/creating-an-access-token-for-command-line-use
 
 You can create a profile by editing the CONFIG_FILE yourself, or
 by calling the ``write_profile(profile_name, repo, token)`` function.
