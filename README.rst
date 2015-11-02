@@ -19,9 +19,12 @@ It tells ``Simply Github``:
     * The ``repo`` it should connect to.
     * The ``token`` it should connect with.
 
-The ``repo`` should be in the standard git form of ``:owner/:repo``, e.g.,
-``jtpaasch/simplygithub``. The ``token`` should be a valid personal access
-token, which you can create from your Github account, under account settings.
+The ``repo`` should be in the standard git form of ``:owner/:repo`` -- for
+instance, ``jtpaasch/simplygithub``.
+
+The ``token`` should be a valid personal access token, which you can create
+from your Github account, under account settings. See
+https://help.github.com/articles/creating-an-access-token-for-command-line-use
 
 To generate a profile to use just during a coding session, import the
 ``simplygithub.authentication.profile`` package and use the
