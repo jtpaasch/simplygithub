@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-"""Constants are defined here."""
+"""Constants used by the ``internals`` package."""
 
 
 GITHUB_API_BASE_URL = "https://api.github.com/"
-"""The base URL for API access to repos."""
+"""The base URL for API access to github."""

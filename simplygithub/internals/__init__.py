@@ -1,7 +1,3 @@
 # -*- coding: utf-8 -*-
 
-"""Github API tools to modify git internals (trees, blobs, commits)."""
-
-
-
-
+"""Utilities for working with git internals (blobs, trees, commits)."""

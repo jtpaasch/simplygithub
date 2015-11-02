@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-"""Github API functionality."""
+"""Utilities for interacting with Github via their API."""
