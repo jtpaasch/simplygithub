@@ -1,4 +1,5 @@
-# Simply Github
+Simply Github
+=============
 
 A simple tool for working with Github remotely. The basic interface is minimal.
 With ``Simply Github``, you can:
@@ -8,7 +9,8 @@ With ``Simply Github``, you can:
     * Merge branches.
 
 
-## Profiles
+Profiles
+--------
 
 Pretty much every ``Simply Github`` function needs a profile as its first
 argument. A profile provides ``Simply Github`` with two pieces of information.
@@ -62,7 +64,8 @@ use it in any other ``Simply Github`` function that requires a profile as its
 first argument.
 
 
-## Creating branches
+Creating branches
+-----------------
 
 Use the ``simplygithub.branches`` package to work with branches::
 
@@ -89,7 +92,8 @@ To delete a branch::
     branches.delete_branch(my_profile, "feature-branch")
 
 
-## Adding and removing files from a branch
+Adding and removing files from a branch
+---------------------------------------
 
 Use the ``simplygithub.files`` package to work with files::
 
