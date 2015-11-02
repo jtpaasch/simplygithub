@@ -135,5 +135,10 @@ To delete a file from a branch::
                       branch="feature-branch",
                       file_path="folder/path/foo.py")
 
-That will remove the file from the branch and commit. You can add an optional
-``commit_message`` parameter if you like.
+That will remove the file from the branch and commit the change. You can add
+an optional ``commit_message`` parameter if you like::
+
+    files.remove_file(my_profile,
+                      branch="feature-branch",
+                      file_path="folder/path/foo.py",
+                      commit_message="Removed a silly file.")
