@@ -56,6 +56,7 @@ def make_sure_folder_exists(path):
         if e.errno != errno.EEXIST:
             raise
 
+
 def read_profile(name):
     """Get a named profile from the CONFIG_FILE.
 
