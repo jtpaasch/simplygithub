@@ -42,8 +42,19 @@ write anything to disk.
 """
 
 import configparser
-from .constants import CONFIG_FILE
+import errno
+import os
 
+from .constants import (CONFIG_FOLDER, CONFIG_FILE)
+
+
+def make_sure_folder_exists(path):
+    """Make sure a path exists."""
+    try:
+        os.makedirs(path)
+    except OSError as e:
+        if e.errno != errno.EEXIST:
+            raise
 
 def read_profile(name):
     """Get a named profile from the CONFIG_FILE.
@@ -88,6 +99,7 @@ def write_profile(name, repo, token):
         A dictionary with the profile's ``repo`` and ``token`` values.
 
     """
+    make_sure_folder_exists(CONFIG_FOLDER)
     config = configparser.ConfigParser()
     config.read(CONFIG_FILE)
     profile = {"repo": repo, "token": token}
