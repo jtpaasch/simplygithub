@@ -82,10 +82,6 @@ To create a branch off of master::
 
     branches.create_branch(my_profile, "feature-branch", branch_off="master")
 
-To get the SHA the branch's HEAD points to::
-
-    branches.get_branch_sha(my_profile, "feature-branch")
-
 To merge a feature branch into master::
 
     branches.merge(my_profile, "feature-branch", merge_into="master")
