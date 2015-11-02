@@ -1,4 +1,4 @@
-# Simply Github
+#. Simply Github
 
 A simple tool for working with Github remotely. The basic interface is minimal.
 With ``Simply Github``, you can:
