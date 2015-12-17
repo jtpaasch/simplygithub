@@ -5,10 +5,7 @@
 import os
 
 
-CONFIG_FOLDER = os.path.join(
-    os.path.expanduser("~"),
-    ".profile",
-    "simplygithub")
+CONFIG_FOLDER = os.path.join(os.path.expanduser("~"), ".simplygithub")
 """The folder where config files are kept."""
 
 

@@ -53,7 +53,7 @@ This creates the same profile as above, but names it ``default``::
                                        repo="jtpaasch/simplygithub",
                                        token="a3ef21ac0f...")
 
-That will save the profile in a file at ``~/.profile/simplygithub/github``.
+That will save the profile in a file at ``~/.simplygithub/github``.
 (You can also create/modify this file yourself, by hand.)
 
 You can load the profile anytime later with the ``read_profile()`` function::
